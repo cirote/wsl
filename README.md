@@ -29,3 +29,37 @@ Cuidado: Hay que desactivar el servidor de dns acrilyc ui antes de instalar. Cas
 ```
 wsl --unregister <NombreDeLaDistribución>
 ```
+
+## Instalar aaPanel
+### Ver https://www.aapanel.com/forum/ 
+
+Descargar el archivo y copiar a la distribucion de linux usando el explorador de archivos de windowsen el directorio home
+```
+chmod +x nombre_del_archivo
+```
+Ejecutar el script de instalación
+```
+sudo ./nombre_del_archivo
+```
+Desactivar SSL
+```
+sudo bt 27
+```
+Cambiar puerto de escucha
+```
+sudo bt 8
+```
+Cambiar dirección
+```
+sudo bt 28
+```
+Cambiar usuario
+```
+sudo bt 6
+```
+Cambiar contraseña
+```
+sudo bt 5
+```
+
+
