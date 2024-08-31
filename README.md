@@ -24,7 +24,7 @@ wsl --list --online
 ```
 wsl --install -d <NombreDeLaDistribución>
 ```
-
+Cuidado: Hay que desactivar el servidor de dns acrilyc ui antes de instalar. Caso contrario dará error https://github.com/microsoft/WSL/issues/4364
 ### Desinstalar una versión
 ```
 wsl --unregister <NombreDeLaDistribución>
