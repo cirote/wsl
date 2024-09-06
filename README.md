@@ -63,3 +63,8 @@ sudo bt 5
 ```
 
 
+# Uso de composer
+```
+/www/server/php/83/bin/php /usr/bin/composer
+```
+
